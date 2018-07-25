@@ -1,14 +1,19 @@
 # packass_thermalcomfort
 **Algoritmos em linguagem R para análises de conforto térmico de acordo com os métodos da ASHRAE Standard 55**.
+
 *Algorithms in R language for thermal comfort analysis according to ASHRAE Standard 55 methods*.
 
 Autor: Arthur Santos Silva, Dr. Eng.
+
 Revisado: Julho/2018.
 
 ---
 Foi utilizado o conceito de “funções” da linguagem R, as quais podem ser acessadas em qualquer computador por meio da função `source`.
+
 Os cinco primeiros scripts são denominados de “funções-base”, pois foram vetorizados para possibilitar seu uso com argumentos (variáveis de entrada). Eles são flexíveis e podem ser incorporados em outros scripts em R, dependendo da finalidade do usuário e do nível de conhecimento em programação.
+
 Os três últimos scripts já foram desenvolvidos para o cálculo de arquivos “em lote”, ou seja, grandes conjuntos de arquivos de entrada (em formato “.csv”) e geram arquivos de saída (em formato “.csv”) para que o usuário possa avaliar todos os resultados de uma vez.
+
 
 *Scripts desenvolvidos*:
 
@@ -20,6 +25,7 @@ Os três últimos scripts já foram desenvolvidos para o cálculo de arquivos �
 - **f(x) comfortvectorfull.R**	- Calcula os índices PMV, PPD, SET e as TO limites para vários conjuntos de variáveis.
 - **f(x) comfortvector.R**	- Calcula os índices PMV, PPD e SET para vários conjuntos de variáveis. Não calcula as TO limites, para agilizar o script.
 - **f(x) comfortindices.R**	- Calcula 37 índices de conforto térmico a longo prazo de forma a agregar os indicadores individuais em um valor representativo para vários conjuntos de variáveis.
+
 
 Abaixo encontra-se o **tutorial** para a aplicação dos scripts e dos datasets (in portuguese):
 
