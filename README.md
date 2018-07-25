@@ -9,7 +9,9 @@ Revisado: Julho/2018.
 
 ---
 Foi utilizado o conceito de “funções” da linguagem R, as quais podem ser acessadas em qualquer computador por meio da função `source`.
+
 Os cinco primeiros scripts são denominados de “funções-base”, pois foram vetorizados para possibilitar seu uso com argumentos (variáveis de entrada). Eles são flexíveis e podem ser incorporados em outros scripts em R, dependendo da finalidade do usuário e do nível de conhecimento em programação.
+
 Os três últimos scripts já foram desenvolvidos para o cálculo de arquivos “em lote”, ou seja, grandes conjuntos de arquivos de entrada (em formato “.csv”) e geram arquivos de saída (em formato “.csv”) para que o usuário possa avaliar todos os resultados de uma vez.
 
 *Scripts desenvolvidos*:
