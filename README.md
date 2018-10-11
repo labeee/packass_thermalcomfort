@@ -5,6 +5,8 @@
 
 Autor: Arthur Santos Silva, Dr. Eng.
 
+E-mail: arthurssilva07@gmail.com
+
 Revisado: Julho/2018.
 
 ---
